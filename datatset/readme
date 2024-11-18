@@ -1,0 +1,7 @@
+The project utilizes an IAB-categorized news article dataset sourced from HuggingFace. 
+This dataset is designed for multi-class classification of news articles into 26 distinct IAB (Interactive Advertising Bureau) categories. 
+
+Key characteristics of the dataset:
+  1. Original size: 871,909 samples.
+  2. Features: 'text' (article content) and 'target' (IAB category label).
+  3. Challenges: Class imbalance and variable article lengths (from a few hundred to thousands of characters).
