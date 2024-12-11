@@ -18,7 +18,7 @@ Semantic leverages a labeled dataset from HuggingFace containing IAB-categorized
 
 Data is split into Train, Validation, Test in  45%, 35%, 20% respectively.
 
-## Core Task of SEMANTIC
+## Methodology
 The core task of S.E.M.A.N.T.I.C is multi-class classification of news articles. This involves:
 * Preparing the data and accounting for the class imbalance.
 * Building a Logistic Regression, CNN, and BERT-based classifier.
@@ -39,3 +39,25 @@ Utilizes transformer architecture for contextual understanding of text.
 * CNN with Word2Vec is chosen as the primary model after evalulating the 3 models.
 * This architecture allows the model to effectively capture local patterns in text while considering the semantic relationships between words.
 * It shows significant improvement from the initial to final accuracy, indicating effective learning.
+
+
+## Results
+
+<p align="center">
+  <img src="results/loss.png" alt="Loss Graph" width="45%">
+  <img src="results/accuracy.png" alt="Accuracy Graph" width="45%">
+</p>
+
+### Key takeaways
+* The CNN with Word2Vec model demonstrates faster learning with higher training and validation accuracy, suggesting that it generalizes well on the validation set.
+* The BERT model has a slower rate of improvement, especially in validation Accuracy 
+
+## Future Work
+* Combine multiple models to improve overall performance.
+* Investigate advanced techniques for imbalanced data.
+* Implementing a transformer-based decoder or advanced techniques to enhance model transparency.
+* Optimize model architecture and training parameters for better performance.
+* Integrate news-specific features or pre-processing techniques to enhance classification accuracy.
+
+By addressing these limitations and pursuing these future directions, the S.E.M.A.N.T.I.C aims to create 
+an even more robust and accurate news article classification system
