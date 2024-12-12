@@ -10,7 +10,7 @@ Semantic leverages a labeled dataset from HuggingFace containing IAB-categorized
 
 Available at: 
 <a href="https://huggingface.co/datasets/shishir-dwi/News-Article-Categorization_IAB">
-          <button>News Article IAB huggingfac link</button></a> 
+          <button>News Article IAB HuggingFace link</button></a> 
 
 1. **Class Imbalance**: Some categories have significantly fewer articles.
 2. **Variable Article Lengths**: Articles range from a few hundred to thousands of characters.
