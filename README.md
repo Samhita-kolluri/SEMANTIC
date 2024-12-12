@@ -8,10 +8,15 @@ This project, SEMANTIC, focuses on the systematic evaluation of multi-class clas
 ## Dataset
 Semantic leverages a labeled dataset from HuggingFace containing IAB-categorized news articles, which provides a real-world representation of news content across various categories. The dataset contains 26 different categories ranging over a variety of content, like "academic interests", "sports", "video games", and more. The dataset presents challenges due to:
 
+Available at: 
+<a href="https://huggingface.co/datasets/shishir-dwi/News-Article-Categorization_IAB">
+          <button>News Article IAB huggingfac link</button></a> 
+
 1. **Class Imbalance**: Some categories have significantly fewer articles.
 2. **Variable Article Lengths**: Articles range from a few hundred to thousands of characters.
 
 Data is split into Train, Validation, Test in  45%, 35%, 20% respectively.
+
 
 ## Getting Started
 
