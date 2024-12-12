@@ -5,3 +5,7 @@ Key characteristics of the dataset:
   1. Original size: 871,909 samples.
   2. Features: 'text' (article content) and 'target' (IAB category label).
   3. Challenges: Class imbalance and variable article lengths (from a few hundred to thousands of characters).
+  
+Available at: 
+<a href="https://huggingface.co/datasets/shishir-dwi/News-Article-Categorization_IAB">
+          <button>News Article IAB huggingfac link</button></a> 
